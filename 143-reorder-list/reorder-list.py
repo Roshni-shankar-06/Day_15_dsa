@@ -9,11 +9,7 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
             
-        # Step 2: Reverse the second half
-        second = slow.next
-        slow.next = None  # Cut the first half
-      
-           
+   
             
 
           
