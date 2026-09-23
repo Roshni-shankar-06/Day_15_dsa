@@ -6,6 +6,4 @@ class Solution:
     for a, b in dominoes:
       key = min(a, b) * 10 + max(a, b)
       ans += count[key]
-      count[key] += 1
-      
-    return ans
+     
