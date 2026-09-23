@@ -12,8 +12,4 @@ class Solution:
     left = 0
 
     for right in range(len(nums)):
-      cur_sum += nums[right]
-      while cur_sum > target:
-        cur_sum -= nums[left]
-        left += 1
-     
+    
