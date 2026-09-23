@@ -15,12 +15,7 @@ class Solution:
         prev = None
         while second:
             temp = second.next
-            second.next = prev
-            prev = second
-            second = temp
+           
             
-        # Step 3: Merge the two halves
-        first, second = head, prev
-        while second:
-            temp1, temp2 = first.next, second.next
+
           
