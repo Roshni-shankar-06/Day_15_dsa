@@ -17,8 +17,4 @@ class Solution {
                     dp[i][j] = Math.max(1, minNext - dungeon[i][j]);
                 }
             }
-        }
-        
-        return dp[0][0];
-    }
-}
+   
