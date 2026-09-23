@@ -7,9 +7,3 @@ class Solution:
     if target == 0:
       return len(nums)
 
-    max_len = -1
-    cur_sum = 0
-    left = 0
-
-    for right in range(len(nums)):
-    
