@@ -13,8 +13,5 @@ class Solution {
                 } else if (j == n - 1) {
                     dp[i][j] = Math.max(1, dp[i + 1][j] - dungeon[i][j]);
                 } else {
-                    int minNext = Math.min(dp[i + 1][j], dp[i][j + 1]);
-                    dp[i][j] = Math.max(1, minNext - dungeon[i][j]);
-                }
-            }
+                  
    
