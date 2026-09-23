@@ -16,7 +16,4 @@ class Solution:
       while cur_sum > target:
         cur_sum -= nums[left]
         left += 1
-      if cur_sum == target:
-        max_len = max(max_len, right - left + 1)
-
-    return len(nums) - max_len if max_len != -1 else -1
+     
