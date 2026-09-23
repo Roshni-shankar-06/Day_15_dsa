@@ -5,9 +5,7 @@ class Solution:
         
         # Step 1: Find the middle of the linked list
         slow, fast = head, head.next
-        while fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
+  
             
    
             
