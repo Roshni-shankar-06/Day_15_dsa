@@ -1,6 +1,4 @@
-class Solution:
-  def numEquivDominoPairs(self, dominoes: list[list[int]]) -> int:
-    ans = 0
+
   
     
      
