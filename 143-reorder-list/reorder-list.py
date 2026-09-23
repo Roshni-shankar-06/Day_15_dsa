@@ -12,9 +12,7 @@ class Solution:
         # Step 2: Reverse the second half
         second = slow.next
         slow.next = None  # Cut the first half
-        prev = None
-        while second:
-            temp = second.next
+      
            
             
 
