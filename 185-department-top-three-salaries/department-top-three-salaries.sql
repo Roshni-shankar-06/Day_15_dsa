@@ -9,5 +9,3 @@ WITH RankedSalaries AS (
     JOIN Department d ON e.departmentId = d.id
 )
 SELECT Department, Employee, Salary
-FROM RankedSalaries
-WHERE rnk <= 3;
